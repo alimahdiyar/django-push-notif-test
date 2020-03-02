@@ -1,0 +1,21 @@
+{% load staticfiles %}
+{% load webpush_notifications %}
+
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="icon" href="{% static 'img/favicon.ico' %}">
+    <title>notif</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    {% webpush_header %}
+    {% block head_extra %} {% endblock head_extra %}
+</head>
+<body>
+    hi
+    {% webpush_button %}
+</body>
+
+</html>
