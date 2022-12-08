@@ -12,7 +12,7 @@ beautifulsoup4==4.7.1
 billiard==3.5.0.5
 cached-property==1.5.1
 celery==4.2.1
-certifi==2019.3.9
+certifi==2022.12.7
 chardet==3.0.4
 class-registry==2.1.2
 Click==7.0
